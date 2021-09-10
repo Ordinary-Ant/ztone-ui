@@ -1,7 +1,11 @@
 {
   "name": "ztone-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/ztone-ui.umd.min.js",
+  "author": {
+    "name": "子舟"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import All from '../src/index.js'
+import ztone from '../src/index.js'
+import Magnifier from '../packages/Magnifier'
 
 Vue.config.productionTip = false
-
-Vue.use(All)
 
 new Vue({
   render: h => h(App)

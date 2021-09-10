@@ -4,7 +4,7 @@
       v-for="index in 5"
       :key="index"
       class="zt-icon-star1"
-      :class="index <= starNum ? 'active' : ''"
+      :class="index <= value ? 'active' : ''"
       :style="{ fontSize: size + 'px' }"
       @click="handleChangeStar(index)"
     ></span>
@@ -14,11 +14,6 @@
 <script>
 export default {
   name: 'ztStars',
-  data () {
-    return {
-      starNum: this.value
-    }
-  },
   props: {
     value: {
       type: Number,
@@ -31,8 +26,7 @@ export default {
   },
   methods: {
     handleChangeStar (index) {
-      this.starNum = index
-      this.$emit('input', this.starNum)
+      this.$emit('input', index)
     }
   }
 }
