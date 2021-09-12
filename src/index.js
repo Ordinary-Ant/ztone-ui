@@ -9,6 +9,7 @@ import CheckboxGroup from '../packages/CheckboxGroup/index.js'
 import Form from '../packages/Form/index.js'
 import FormItem from '../packages/FormItem/index.js'
 import Stars from '../packages/Stars/index.js'
+import Magnifier from '../packages/Magnifier/index.js'
 import './font/iconfont.css'
 import 'animate.css'
 
@@ -23,7 +24,8 @@ const components = [
   CheckboxGroup,
   Form,
   FormItem,
-  Stars
+  Stars,
+  Magnifier
 ]
 
 const install = function (Vue) {
@@ -49,5 +51,6 @@ export default {
   CheckboxGroup,
   Form,
   FormItem,
-  Stars
+  Stars,
+  Magnifier
 }
