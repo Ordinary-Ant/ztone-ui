@@ -9,6 +9,7 @@
     <Form />
     <Dialog />
     <Magnifier />
+    <DropDown />
   </div>
 </template>
 <script>
@@ -21,6 +22,7 @@ import Radio from './components/radio.vue'
 import Switchs from './components/switch.vue'
 import Stars from './components/stars.vue'
 import Magnifier from './components/magnifier.vue'
+import DropDown from './components/dropdown.vue'
 export default {
   name: 'App',
   components: {
@@ -32,14 +34,8 @@ export default {
     Input,
     Radio,
     Stars,
-    Magnifier
-  },
-  data () {
-    return {
-      url: ''
-    }
+    Magnifier,
+    DropDown
   }
 }
 </script>
-<style lang="scss">
-</style>

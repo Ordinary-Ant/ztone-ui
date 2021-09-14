@@ -10,6 +10,9 @@ import Form from '../packages/Form/index.js'
 import FormItem from '../packages/FormItem/index.js'
 import Stars from '../packages/Stars/index.js'
 import Magnifier from '../packages/Magnifier/index.js'
+import DropDown from '../packages/DropDown/index.js'
+import DropDownMenu from '../packages/DropDownMenu/index.js'
+import DropDownItem from '../packages/DropDownItem/index.js'
 import './font/iconfont.css'
 import 'animate.css'
 
@@ -25,7 +28,10 @@ const components = [
   Form,
   FormItem,
   Stars,
-  Magnifier
+  Magnifier,
+  DropDown,
+  DropDownMenu,
+  DropDownItem
 ]
 
 const install = function (Vue) {
@@ -52,5 +58,8 @@ export default {
   Form,
   FormItem,
   Stars,
-  Magnifier
+  Magnifier,
+  DropDown,
+  DropDownMenu,
+  DropDownItem
 }
